@@ -1,0 +1,50 @@
+{
+  "session_id": "ruong-a",
+  "source": "cv_yolo",
+  "class_id": "asiatic_rice_borer",
+  "disease": "sau duc than lua",
+  "confidence": 0.947019,
+  "image": "C:\\Users\\mphat\\Documents\\RiceDisease\\CV_model\\input_images\\asiatic_rice_borer_253_jpg.rf.ded4661383829abc82a930fcdbddad1a.jpg",
+  "annotated_image": "C:\\Users\\mphat\\Documents\\RiceDisease\\CV_model\\output_images\\asiatic_rice_borer_253_jpg.rf.ded4661383829abc82a930fcdbddad1a_bbox.jpg",
+  "needs_llm_confirmation": true,
+  "llm_strategy": "cautious_advice_with_confirmation_question",
+  "notes": "CV confidence level: ambiguous LLM strategy: cautious_advice_with_confirmation_question Reason: YOLO co du tin hieu de goi DS107, nhung nen de LLM hoi them hoac dien dat can trong. Ket qua YOLO chua chac chan; DS107 nen hoi them trieu chung, giai doan lua, mat do sau va dieu kien dong ruong.",
+  "detections": [
+    {
+      "label": "asiatic_rice_borer",
+      "class_id": 0,
+      "confidence": 0.947019,
+      "bbox_xyxy": [
+        29.74,
+        5.34,
+        292.55,
+        141.92
+      ],
+      "bbox_xywh": [
+        161.14,
+        73.63,
+        262.81,
+        136.58
+      ],
+      "mask": null
+    },
+    {
+      "label": "asiatic_rice_borer",
+      "class_id": 0,
+      "confidence": 0.937443,
+      "bbox_xyxy": [
+        20.11,
+        195.62,
+        297.33,
+        284.82
+      ],
+      "bbox_xywh": [
+        158.72,
+        240.22,
+        277.22,
+        89.2
+      ],
+      "mask": null
+    }
+  ]
+}
